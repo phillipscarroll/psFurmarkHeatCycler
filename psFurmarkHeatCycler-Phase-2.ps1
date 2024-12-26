@@ -1,10 +1,10 @@
 # Variables
 # maxTime: The maximum time in seconds to run Furmark for each loop
-$maxTime = 75
-# 3000 cycles = 1 week of pulsing on/off
-$loopCount = 3000
+$maxTime = 510
+# 432 cycles = 3 days of heavy heat load with 90 seconds of cooling
+$loopCount = 432
 # sleepTime: The time in seconds to sleep between runs, this should include the maxTime
-$sleepTime = 200
+$sleepTime = 600
 $logFileName = "gpu_long_test.log"
 
 # Check if the log file exists
